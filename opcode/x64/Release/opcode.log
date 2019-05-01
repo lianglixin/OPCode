@@ -1,0 +1,8 @@
+﻿  Analysis.cpp
+  ByteReader.cpp
+  InstructionReader.cpp
+  Disassembler.cpp
+  OpcodeTable.cpp
+  OpcodeToString.cpp
+  Tools.cpp
+  opcode.vcxproj -> I:\Project_Conntainer\VMProject\opcode\x64\Release\opcode.lib

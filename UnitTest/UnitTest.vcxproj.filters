@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\TestData">
+      <UniqueIdentifier>{a7f05f1c-5c1f-4d76-84fe-1c42546a864d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TestFunc">
+      <UniqueIdentifier>{03af545b-03e0-4974-baf6-6c4dc8444599}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestData.h">
+      <Filter>源文件\TestData</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAnalysis.h">
+      <Filter>源文件\TestFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDisassembler.h">
+      <Filter>源文件\TestFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFunc.h">
+      <Filter>源文件\TestFunc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="unittest1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\OpcodeToString.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\OpcodeTable.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\Disassembler.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\ByteReader.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\InstructionReader.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\Analysis.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\opcode\Tools.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData.cpp">
+      <Filter>源文件\TestData</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData_Instructions.cpp">
+      <Filter>源文件\TestData</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAnalysis.cpp">
+      <Filter>源文件\TestFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDisassembler.cpp">
+      <Filter>源文件\TestFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFunc.cpp">
+      <Filter>源文件\TestFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData_Instructions_x86.cpp">
+      <Filter>源文件\TestData</Filter>
+    </ClCompile>
+    <ClCompile Include="TestData_Instructions_x64.cpp">
+      <Filter>源文件\TestData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
